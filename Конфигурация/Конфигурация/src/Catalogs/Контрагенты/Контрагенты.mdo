@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b732d839-d498-4b7a-8802-683c5e8fdcac">
+  <producedTypes>
+    <objectType typeId="add6919a-35a4-4e3b-9e2c-3bd3219a5960" valueTypeId="87dc3660-ea12-4447-8a55-4a0d4ba369b2"/>
+    <refType typeId="52fd7205-9402-4512-ac54-0fdb902fbc13" valueTypeId="540c1683-621c-4ec8-a383-14dbb88da5d0"/>
+    <selectionType typeId="37e8ed8a-c877-4349-ad85-21d541b57801" valueTypeId="70435ee8-2bfb-4788-a24d-4da2759e137f"/>
+    <listType typeId="4153141e-dd7a-4bec-a77f-eb4f77578a73" valueTypeId="60b040b3-031d-41cc-a869-776a35b72834"/>
+    <managerType typeId="457b2604-f1be-4efa-9834-82f0dd4faed9" valueTypeId="ba7ee777-f7af-46c4-944e-862a7e1973ee"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="b4359db1-733d-43bc-b503-c449c528861e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8efcadae-3701-4c46-954f-be545edc112a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
